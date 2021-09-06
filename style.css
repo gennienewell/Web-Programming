@@ -1,0 +1,33 @@
+.image1 {
+
+text-align: center;
+
+}
+
+p {
+margin-top :0px;
+padding-left: 500px;
+padding-right: 500px;
+}
+
+.line1{
+text-decoration: underline;
+}
+
+.line2{
+background: orange;
+}
+
+.line3{
+color: red;
+font-weight: bold;
+}
+
+.line4{
+color: red;
+font-weight: bold;
+}
+
+.line5{
+text-decoration: underline;
+}
