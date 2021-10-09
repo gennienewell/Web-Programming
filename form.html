@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- This links to the style sheet-->
+    <link href="style4.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- This links to the javascript code-->
+    <script src="validation.js"></script>
+    <!-- This is The start of the form -->
+    <form name  = register>
+      <!-- Start of Labels and text boxes. -->
+      <label for= "username" id = lbl1> Username:</label>
+      <!--   Type of input ,  Name or ID , Value in Box-->
+      <input = type = "text" name = "username" id = "username" value = "">
+      <br><br>
+      <label for= "email"id = lbl2> Email:</label>
+      <!--   Type of input ,  Name or ID , Value in Box-->
+      <input = type = "text" name = "email" id = "email" value = "">
+      <br><br>
+      <label for= "phoneNumber"id = lbl3> Phone Number:</label>
+      <!--   Type of input ,  Name or ID , Value in Box-->
+      <input = type = "text" name = "phoneNumber" id = "phoneNumber"value = "">
+      <br><br>
+      <label for= "password"id = lbl4> Enter Password:</label>
+      <!--   Type of input ,  Name or ID , Value in Box-->
+      <input = type = "password" name = "password" id = "password" id = "password"value = "">
+      <br><br>
+      <label for= "confirmPassword"id = lbl5> Confirm Password:</label>
+      <!--   Type of input ,  Name or ID , Value in Box-->
+      <input = type = "password" name = "confirmPassword" id = "confirmPassword" value = "">
+      <!-- Start of Radio buttons. -->
+      <br><br>
+      <label for= "gender" id = lbl6> Gender:</label>
+      <input = type = "radio" id = "female" name = "gender" value = "Female">
+      <label for= "Female"> Female </label>
+      <input = type = "radio" id = "male" name = "gender" value = "Male">
+      <label for= "Male"> Male </label>
+      <input = type = "radio" id = "other" name = "gender" value = "Other">
+      <label for= "Other"> Other </label>
+      <!-- Start of DropDown boxes. -->
+      <br><br>
+      <label for= "ageGroup"id = lbl7> Age Group:</label>
+      <select id = "ageGroup"name = "ageGroup">
+        <option value = ""></option>
+        <option value = "<21"> <21 years old </option>
+        <option value = "21-25"> 21-25 years old </option>
+        <option value = "26-35"> 26-35 years old </option>
+        <option value = "36-50"> 36-50 years old </option>
+        <option value = "<50"> >50 years old </option>
+      </select>
+      <!-- Start of Checkboxes. -->
+      <br><br>
+      <label for= "Favorite Music Genre"id = lbl8> Favorite Music Genre:</label>
+      <input = type = "checkbox" id = "pop" name = "pop" value = "Pop">
+      <input = type = "checkbox" id = "hiphop" name = "hiphop" value = "Hiphop">
+      <label for= "Hiphop"> Hip Hop </label>
+      <input = type = "checkbox" id = "jazz" name = "jazz" value = "Jazz">
+      <label for= "Jazz"> Jazz </label>
+      <input = type = "checkbox" id = "rock" name = "rock" value = "Rock">
+      <label for= "Rock"> Rock </label>
+      <input = type = "checkbox" id = "classicalMusic" name = "classicalMusic" value = "ClassicalMusic">
+      <label for= "ClassicalMusic"> Classical Music </label>
+      <input = type = "checkbox" id = "country" name = "country" value = "Country">
+      <label for= "Country"> Country </label>
+      <!-- Start of Buttons. -->
+      <br><br>
+      <div class =btn>
+      <input type="button" value="Submit" onclick="getInput()">
+      <input = type = "reset" value = "Clear" onclick = "clear();clear1();">
+      </div>
+      <!-- Output The Data. -->
+      <div id ="output1"></div><br>
+      <div id ="output2"></div><br>
+      <div id ="output3"></div><br>
+      <div id ="output4"></div><br>
+      <div id ="output5"></div><br>
+      <div id ="output6"></div><br>
+      <div id ="output7"></div><br>
+      <div id ="output8"></div><br>
+    </form>
+  </body>
+</html>

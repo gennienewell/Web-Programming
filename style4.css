@@ -1,0 +1,12 @@
+#lbl1, #lbl2 ,#lbl3,#lbl4,#lbl5,#lbl6,#lbl7,#lbl8{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+.btn{
+  display: inline-block;
+  width: 260px;
+  text-align: right;
+  
+}
